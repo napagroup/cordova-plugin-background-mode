@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-background-mode"
-        version="0.7.2">
+        version="0.7.4">
 
     <name>BackgroundMode</name>
 
@@ -23,6 +23,9 @@
     <!-- cordova -->
     <engines>
         <engine name="cordova" version=">=3.0.0" />
+        <engine name="cordova-android" version=">=6.4.0" />
+        <engine name="cordova-browser" version=">=5.0.0" />
+        <engine name="cordova-ios" version=">=4.5.5" />
         <engine name="android-sdk" version=">=16" />
         <!-- <engine name="windows-sdk" version=">=10.0.14393.0" /> -->
     </engines>

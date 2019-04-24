@@ -1,4 +1,9 @@
 ## ChangeLog
+#### Version 0.7.4 (04.24.2019)
+- iOS 12.2 Fix
+- Compile using Java 1.8
+- Add `cordova-android`, `cordova-browser`, and `cordova-ios` engines where needed.
+
 #### Version 0.7.3 (not yet released)
 - Check if screen is off on Android
 - Wake-up device on Android
