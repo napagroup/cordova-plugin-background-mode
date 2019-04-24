@@ -24,6 +24,10 @@
   ],
   "engines": [
     {
+      "name": "android-sdk",
+      "version": ">=16"
+    },
+    {
       "name": "cordova",
       "version": ">=3.0.0"
     },
@@ -38,10 +42,6 @@
     {
       "name": "cordova-ios",
       "version": ">=4.5.5"
-    },
-    {
-      "name": "android-sdk",
-      "version": ">=16"
     }
   ],
   "author": "Sebastián Katzer",
