@@ -1,4 +1,8 @@
 ## ChangeLog
+
+#### Version 0.7.5 (04.29.2019)
+- Fix runtime iOS issue with backgroundMode.onactivate
+
 #### Version 0.7.4 (04.24.2019)
 - iOS 12.2 Fix
 - Add `cordova-android`, `cordova-browser`, and `cordova-ios` engines where needed.
