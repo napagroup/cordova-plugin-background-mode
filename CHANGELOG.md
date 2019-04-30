@@ -1,5 +1,8 @@
 ## ChangeLog
 
+#### Version 0.7.6 (04.30.2019)
+- Add back depreciated methods so no error is thrown
+
 #### Version 0.7.5 (04.29.2019)
 - Fix runtime iOS issue with backgroundMode.onactivate
 

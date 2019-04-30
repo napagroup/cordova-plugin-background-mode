@@ -390,6 +390,30 @@ exports.un = function (event, callback)
 };
 
 /**
+ * @deprecated
+ *
+ * Called when the background mode has been activated.
+ */
+exports.onactivate = function() {};
+
+/**
+ * @deprecated
+ *
+ * Called when the background mode has been deaktivated.
+ */
+exports.ondeactivate = function() {};
+
+/**
+ * @deprecated
+ *
+ * Called when the background mode could not been activated.
+ *
+ * @param {Integer} errorCode
+ *      Error code which describes the error
+ */
+exports.onfailure = function() {};
+
+/**
  * @private
  *
  * Flag indicates if the mode is enabled.
